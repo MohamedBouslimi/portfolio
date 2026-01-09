@@ -64,7 +64,7 @@ export default function About() {
               {/* Image container */}
               <div className="relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800">
                 <img
-                  src="/profile.jpg"
+                  src={import.meta.env.BASE_URL + 'profile.jpg'}
                   alt="Mohamed Bouslimi"
                   className="w-full aspect-square object-cover"
                   onError={(e) => {
