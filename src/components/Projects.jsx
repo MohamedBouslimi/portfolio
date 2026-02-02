@@ -5,10 +5,17 @@ import { FaGithub } from 'react-icons/fa'
 
 const projects = [
   {
-    title: 'Fitness Tracking Application',
-    description: 'Full-stack fitness app to track workouts, nutrition, and progress. Features user authentication, progress charts, and personalized workout plans.',
-    tech: ['Spring Boot', 'Angular', 'Java', 'MySQL'],
-    github: 'https://github.com/MohamedBouslimi',
+    title: 'Fitness Tracker Application',
+    description: 'Full-stack fitness tracking application built with Spring Boot backend and TypeScript frontend. Track workouts, monitor progress, and achieve your fitness goals with an intuitive interface.',
+    tech: ['Spring Boot', 'TypeScript', 'Java', 'SCSS'],
+    github: 'https://github.com/MohamedBouslimi/fitness-tracker',
+    featured: true,
+  },
+  {
+    title: 'Library Management System',
+    description: 'Comprehensive Java-based library management system with complete book management, member tracking, transaction processing, and automated fine calculation. Features H2 database persistence and authentication.',
+    tech: ['Java 17', 'Maven', 'H2 Database', 'Gson'],
+    github: 'https://github.com/MohamedBouslimi/library_management_system',
     featured: true,
   },
   {
@@ -22,13 +29,6 @@ const projects = [
     title: 'Marketplace Platform',
     description: 'E-commerce marketplace with product listings, shopping cart, user authentication, and order processing. Built during internship at Cyber Ocean.',
     tech: ['Node.js', 'Vue.js', 'MongoDB'],
-    github: 'https://github.com/MohamedBouslimi',
-    featured: true,
-  },
-  {
-    title: 'Library Management System',
-    description: 'Java application for managing books, users, and loan operations with inventory tracking and due date reminders.',
-    tech: ['Java', 'MySQL'],
     github: 'https://github.com/MohamedBouslimi',
     featured: false,
   },
